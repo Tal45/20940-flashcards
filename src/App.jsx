@@ -73,6 +73,10 @@ function App() {
           <button className="tertiary-btn" onClick={handleShuffle}>Shuffle Deck</button>
         </div>
       </div>
+
+      <footer className="footer">
+        <p>Flashcards Created By <a href="https://www.linkedin.com/in/menachem-mendel-kalish-95b184249?utm_source=share&utm_campaign=share_via&utm_content=profile" target="_blank" rel="noopener noreferrer">Menachem Mendel Kalish</a></p>
+      </footer>
     </div>
   )
 }
